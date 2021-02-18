@@ -8,4 +8,4 @@ try:
     you = AI_ear.recognize_google(audio)
 except:
     you = ""
-print("YOu" + you)
+print("You told: " + you)

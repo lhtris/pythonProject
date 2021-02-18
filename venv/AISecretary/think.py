@@ -2,7 +2,7 @@ you = "hello"
 
 if you == "":
     AI_brain = "Sorry. I can't hear you."
-elif you == "hello":
+elif "hello" in you:
     AI_brain = "Hello"
 elif you == "today":
     AI_brain = "Thursday"
